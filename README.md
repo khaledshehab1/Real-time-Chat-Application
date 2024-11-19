@@ -86,15 +86,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - React Router for navigation
 
   ## .env-File
--Create a .env file in the root directory of the project.
--Copy the content from the .env.example file provided in the repository.
--Fill in the required values for the environment variables:
+  
+  1-Create a .env file in the root directory of the project.
 
-    API_KEY: Your API key for external services.
-    SESSIONS_SECRET_KEY: The secret key used for managing user sessions.
-    DB_URL: The connection string for your database.
-    email: The email address used for system-related communications.
-    password: The password for the email account above.
-    forget_name: A default name used in the forget-password flow (or any other relevant feature).
+  2-Copy the content from the .env.example file provided in the repository.
 
--Save the .env file.
+  3-Fill in the required values for the environment variables:
+
+      API_KEY: Your API key for external services.
+      SESSIONS_SECRET_KEY: The secret key used for managing user sessions.
+      DB_URL: The connection string for your database.
+      email: The email address used for system-related communications.
+      password: The password for the email account above.
+      forget_name: A default name used in the forget-password flow (or any other relevant feature).
+
+  -Save the .env file.
